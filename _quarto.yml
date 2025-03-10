@@ -14,7 +14,7 @@ website:
 
 format:
   html:
-    theme: quartz
-    css: styles.css
+    theme: cosmo
+    css: style.css
     toc: true
     code-fold: true
