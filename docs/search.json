@@ -14,7 +14,7 @@
     "href": "index.html",
     "title": "My Analytics Project",
     "section": "",
-    "text": "Group research question\nMore content here…\n\n\n\n\n\n\n\n\n\nHere is more.\nSample tabset\n\nTab 1Tab 2\n\n\n\n\nCode\nmyVar&lt;-\"20\"\n\nmyVar\n\n\n[1] \"20\"\n\n\n\n\n\n\nCode\nplot(mtcars)",
+    "text": "Group research question\nMore content here…\n\n\nCode\nChickWeight |&gt;\n  group_by(Diet, Time) |&gt;\n  summarize(avgWeight=mean(weight)) |&gt;\n  ggplot(mapping = aes(x=Time, y=avgWeight, color=Diet))+\n  geom_line()+\n  labs(title=\"Comparison of Chick Weights by Diet Over Time\", x=\"Days\", y=\"Weight(g)\")\n\n\n\n\n\n\n\n\n\nHere is more.\nSample tabset\n\nTab 1Tab 2\n\n\n\n\nCode\nmyVar&lt;-\"20\"\n\nmyVar\n\n\n[1] \"20\"\n\n\n\n\n\n\nCode\nplot(mtcars)",
     "crumbs": [
       "Home"
     ]
