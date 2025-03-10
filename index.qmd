@@ -16,7 +16,7 @@ library(tidyverse)
 More content here...
 
 ```{r}
-#| echo: false
+
 ChickWeight |>
   group_by(Diet, Time) |>
   summarize(avgWeight=mean(weight)) |>
