@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "My Data Analysis Project"
+  title: "My Analytics Project"
   sidebar:
     style: "docked"
     contents:
@@ -11,6 +11,7 @@ website:
         text: Home
       - href: abstract.qmd #person B
         text: Abstract
+
 
 
 format:
