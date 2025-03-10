@@ -11,12 +11,12 @@ execute:
 library(tidyverse)
 ```
 
-# Group research question
+### Group research question
 
 More content here...
 
 ```{r}
-
+#| echo: false
 ChickWeight |>
   group_by(Diet, Time) |>
   summarize(avgWeight=mean(weight)) |>
@@ -30,3 +30,27 @@ ChickWeight |>
 ```
 
 Here is more.
+
+
+Sample tabset
+
+::: {.panel-tabset}
+## Tab 1
+
+``` {r}
+
+
+myVar<-"20"
+
+myVar
+
+```
+
+## Tab 2
+
+``` {r}
+
+plot(mtcars)
+```
+
+:::
