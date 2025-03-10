@@ -26,6 +26,11 @@ Output from a function:
 
 ```{r}
 #| echo: false
+
+#summaryTable() lives in src/abstractFunctions.R
+# You can put R code directly in here, but moving it to .R files (and custom functions)
+# may keep things a little cleaner.
+
 summaryTable()
 
 
