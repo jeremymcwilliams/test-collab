@@ -4,6 +4,7 @@ project:
 
 website:
   title: "My Analytics Project"
+  search: false
   sidebar:
     style: "docked"
     contents:
@@ -18,3 +19,4 @@ format:
     css: style.css
     toc: true
     code-fold: true
+
