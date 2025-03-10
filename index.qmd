@@ -1,0 +1,30 @@
+---
+title: "My Analytics Project"
+format: html
+editor: visual
+execute:
+  warning: false
+---
+
+```{r setup}
+#| echo: false
+library(tidyverse)
+```
+
+# Group research question
+
+More content here...
+
+```{r}
+
+ChickWeight |>
+  group_by(Diet, Time) |>
+  summarize(avgWeight=mean(weight)) |>
+  ggplot(mapping = aes(x=Time, y=avgWeight, color=Diet))+
+  geom_line()+
+  labs(title="Comparison of Chick Weights by Diet Over Time", x="Days", y="Weight(g)")
+
+
+
+
+```

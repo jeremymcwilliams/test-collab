@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "abstract.html",
+    "href": "abstract.html",
+    "title": "Abstract",
+    "section": "",
+    "text": "Abstract\ntext of my abstract…..",
+    "crumbs": [
+      "Abstract"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Analytics Project",
+    "section": "",
+    "text": "Group research question\nMore content here…\n\n\nCode\nChickWeight |&gt;\n  group_by(Diet, Time) |&gt;\n  summarize(avgWeight=mean(weight)) |&gt;\n  ggplot(mapping = aes(x=Time, y=avgWeight, color=Diet))+\n  geom_line()+\n  labs(title=\"Comparison of Chick Weights by Diet Over Time\", x=\"Days\", y=\"Weight(g)\")",
+    "crumbs": [
+      "Home"
+    ]
+  }
+]
