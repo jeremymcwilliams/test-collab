@@ -7,9 +7,9 @@ website:
   sidebar:
     style: "docked"
     contents:
-      - href: index.qmd
+      - href: index.qmd #person A
         text: Home
-      - href: abstract.qmd
+      - href: abstract.qmd #person B
         text: Abstract
 
 
